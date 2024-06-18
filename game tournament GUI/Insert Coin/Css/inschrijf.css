@@ -1,0 +1,159 @@
+body{
+    background-color: #fab52a;
+  
+}
+.container{
+    display: grid;
+    grid-template-columns: 15% 1fr 1fr 1fr 15%;
+    grid-template-rows: 100px 100px  100px 100px 100px 100px 55px;
+    padding: 10px;
+}
+.header{
+   
+    grid-row: 1/ span 2;
+    grid-column: 1/ span 5;
+    background-color: #8f8b83;
+    text-align: center;
+    position: relative;
+    font-size: 60px;
+    font-family: fantasy;
+    letter-spacing: 4px;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 80px;
+}
+.nav{
+    
+    grid-column: 1/ span 5;
+    grid-row: 1/ span 2;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: navy;
+    font-size: 25px;
+    text-align: justify;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+.nav a{
+    display: block;
+    margin: 10px;
+    color: antiquewhite;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+
+.nh:hover{
+    background-color: rgba(18, 18, 159, 0.985);
+    border-radius: 10px;
+    
+}
+
+.dropbtn {
+    background-color: navy;
+    color: antiquewhite;
+    margin-top: 6px;
+    padding: 16px;
+    max-width: 100%;
+    max-height: 100%;
+    
+    height: 12px;
+    line-height: 1px;
+    border-radius: 10px;
+}
+.dropdown {
+    position: relative;
+    display: block;
+    
+    
+}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: navy;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    
+}
+  .dropdown-content{
+    color: antiquewhite;
+    text-align: center;
+    line-height: 0;
+    
+    
+}
+.dropdown-content:hover {background-color: rgba(18, 18, 159, 0.985);}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: rgba(18, 18, 159, 0.985);}
+
+.wh{ 
+    grid-row: 2;
+    grid-column: 3;
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+    background-color: slategray;
+    font-weight: bold;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    height: 30px;
+    width: 500px;
+} 
+.info{
+    grid-column: 1;
+    grid-row: 3/ span 3;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: gainsboro;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+.form{
+    grid-column: 2/ span 2;
+    grid-row: 3/ span 4;
+    margin-left: 70px;
+    background-color: gainsboro;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 5px;
+}
+.form2{
+    grid-column: 3;
+    grid-row: 3/ span 2;
+    margin-top: 69px;
+
+}
+.form3{
+    grid-column: 3/span 2;
+    grid-row: 5/span 2;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+input{
+    border-radius: 5px;
+}
+button{
+    height: 50px;
+    width: 150px;   
+}
+img{
+max-width: 100%;
+height: 70px;
+grid-row: 4;
+grid-column: 3;
+margin-left: 200px;  
+margin-right: 60px;  
+}
